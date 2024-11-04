@@ -630,7 +630,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .formform {
-margin-bottom: 8px;
+
+margin-bottom: 16px
 
 }
 
@@ -682,7 +683,11 @@ margin-bottom: 8px;
     padding: 8px 16px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
 
+}
+.textarea:focus {
+    border-color: #4D5AE5;
 }
 .box {
     margin-bottom: 24px;
@@ -711,12 +716,13 @@ margin-bottom: 8px;
     fill: transparent;
 
 }
-.inputinput:checked .span-checbox {
+.inputinput:checked+label span-checbox {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
 
 }
+/* input:checked+label span */
 .privat {
     color: #4d5ae5;
 
