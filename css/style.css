@@ -716,7 +716,7 @@ margin-bottom: 16px
     fill: transparent;
 
 }
-.inputinput:checked+labellabel>span-checbox {
+.inputinput:checked+label>span-checbox {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
