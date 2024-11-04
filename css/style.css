@@ -719,13 +719,13 @@ margin-bottom: 8px
     fill: transparent;
 
 }
-.input:hover  {
+.input:checked+ .labellabel.span-checbox {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
     
     }
-.inputinput:focus {
+.input:focus {
         border-color: #4D5AE5;
         
 }
