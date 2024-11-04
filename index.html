@@ -473,18 +473,33 @@
           </div>
 
           <div class="formform">
-            <label class="label" for="user-comment"> Comment </label>
+            <label class="label" for="textarea"> Comment </label>
             <div class="persona">
               <textarea
+                name="comment"
+                id="user-comment"
                 placeholder="Text input"
                 type="text"
-                id="user-comment"
-                name="user-comment"
-                class="input"
-              />
+                class="textarea"
+              >
+              </textarea>
               <svg class="modalperson" width="18" height="24">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>
+              <div class="box">
+                <label class="labellabel" span>
+                  I accept the terms and conditions of the
+                  <input
+                    class="inputinput visually-hidden"
+                    type="checkbox"
+                    id="user-privacy"
+                    name="color"
+                    value="true"
+                    checked
+                  />
+                  Red
+                </label>
+              </div>
             </div>
           </div>
         </form>
