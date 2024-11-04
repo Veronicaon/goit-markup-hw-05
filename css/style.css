@@ -689,8 +689,11 @@ margin-bottom: 8px
 .textarea:focus {
     border-color: #4D5AE5;
 }
-.box {
+.block {
     margin-bottom: 16px
+}
+.box {
+    margin-bottom: 24px;
 }
 .inputinput {
    visibility:visually-hidden;
