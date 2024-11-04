@@ -716,20 +716,20 @@ margin-bottom: 16px
     fill: transparent;
 
 }
-.input:checked+ labellabel.span-checbox {
+.inputinput:checked+labellabel>span-checbox {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
     
     }
-.input:focus {
+.inputinput:focus {
         border-color: #4D5AE5;
         
 }
 .input:focus .modalperson {
     fill: #4D5AE5;
 }
-/* input:checked+label span */
+/* input:checked+label span */input:checked+label>span
 .privat {
     color: #4d5ae5;
 
