@@ -695,10 +695,9 @@ margin-bottom: 8px
 .box {
     margin-bottom: 24px;
 }
-.inputinput {
-   visibility:visually-hidden;
 
-}
+
+
 .labellabel {
     font-size: 12px;
     line-height: 1.17;
@@ -719,7 +718,7 @@ margin-bottom: 8px
     fill: transparent;
 
 }
-.input:checked+ .labellabel.span-checbox {
+.span-checbox:hover {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
