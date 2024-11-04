@@ -629,7 +629,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin-bottom: 16px;
 
 }
-.format{
+.formform{
 
 margin-bottom: 8px
 
@@ -716,7 +716,7 @@ margin-bottom: 8px
     fill: transparent;
 
 }
-.inputinput:checked + .label .span-checbox {
+.inputinput:hover  {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
@@ -726,7 +726,7 @@ margin-bottom: 8px
         border-color: #4D5AE5;
         
 }
-.inputinput:focus .modalperson {
+.inputinput:focus + .modalperson {
     fill: #4D5AE5;
 }
 /* input:checked+label span */input:checked+label>span
