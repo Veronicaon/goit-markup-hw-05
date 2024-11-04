@@ -690,7 +690,7 @@ margin-bottom: 8px
     border-color: #4D5AE5;
 }
 .box {
-    margin-bottom: 24px;
+    margin-bottom: 16px
 }
 .inputinput {
    visibility:visually-hidden;
@@ -726,12 +726,12 @@ margin-bottom: 8px
         border-color: #4D5AE5;
         
 }
-.input:focus + .modalperson {
-    fill: #4D5AE5;
+.input:focus+ .modalperson {
+fill: #4D5AE5;
 }
 
 .privat {
-    color: #4d5ae5;
+color: #4d5ae5;
 
 }
 .buttonmodal {
