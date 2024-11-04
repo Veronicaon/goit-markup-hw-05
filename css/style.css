@@ -716,7 +716,7 @@ margin-bottom: 8px
     fill: transparent;
 
 }
-.inputinput:hover  {
+.input:hover  {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
@@ -726,10 +726,10 @@ margin-bottom: 8px
         border-color: #4D5AE5;
         
 }
-.inputinput:focus + .modalperson {
+.input:focus + .modalperson {
     fill: #4D5AE5;
 }
-/* input:checked+label span */input:checked+label>span
+
 .privat {
     color: #4d5ae5;
 
