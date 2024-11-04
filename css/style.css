@@ -716,11 +716,18 @@ margin-bottom: 16px
     fill: transparent;
 
 }
-.inputinput:checked+ label.span-checbox {
+.inputinput:checked+ labellabel.span-checbox {
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
-
+    
+    }
+.inputinput:focus {
+        border-color: #4D5AE5;
+        
+}
+.inputinput:focus . modalperson {
+    fill: #4D5AE5;
 }
 /* input:checked+label span */
 .privat {
